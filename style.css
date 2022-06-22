@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+}
+
+.container1{
+    display: flex;
+    flex-direction: left;
+    align-items: center;
+    background-color: lightskyblue;
+    height: 40%;
+    text-align: justify;
+}
+.container1 img{
+    padding: 20px 30px 40px 100px;
+    height: 70%;
+    width: 70%;
+}
+
+.MyName{
+    color: white;
+    font-size: 25;
+    font-family: 'Times New Roman', Times, serif;
+    width: 100%;
+}
+.MyName h4, h1, p, button{
+    padding-bottom: 30px;
+    padding-left: 40px;
+}
+button{
+    background-color: rgb(33, 76, 156);
+    color: white;
+    padding: 10 20;
+    margin-left: 40px;
+    border-radius: 5px;
+}
+.skills{
+    width: 50%;
+    text-align: center;
+    margin : 30px 25%;
+    font-size: 25px;
+}
+.skills h2{
+    padding-bottom: 10px;
+}
+.skills a {
+    text-decoration-line: none;
+}
+.skillset{
+    display: flex;
+    flex-direction: left;
+    margin : 80px 25%;
+}
+.front-end, .back-end, .others{
+    padding: 80px 60px;
+    margin: 20px;
+    width: 250px;
+    font-size: 18px;
+    background-color: antiquewhite;
+}
+
+.skillset h4{
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+@media screen and (max-width: 480px) {
+    .container1{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        align-items: center;
+        background-color: lightskyblue;
+        height: 100%;
+        width: 100%;
+        /* text-align: justify; */
+    }
+    .container1 img{
+        justify-content: center;
+        height: 40%;
+        width: 50%;
+    }
+    
+    .MyName{
+        color: white;
+        font-size: 15;
+        font-family: Arial, Helvetica, sans-serif;
+        width: 90%;
+        height: 60%;
+        justify-content: center;
+    }
+    .MyName h4, h1, p, button{
+        padding-bottom: 10px;
+        /* padding-left: 60px; */
+        /* padding-right: 60px; */
+    }
+    button{
+        background-color: rgb(33, 76, 156);
+        color: white;
+        padding: 7 15;
+        margin-left: 60px;
+        border-radius: 5px;
+    }
+    .skills{
+        width: 80%;
+        text-align: justify;
+        margin-left : 20px;
+        font-size: 15px;
+        height: 40%;
+    }
+    .skills h2{
+        padding-bottom: 10px;
+        text-align: center;
+    }
+    .skills a {
+        text-decoration-line: none;
+        margin-left: 60px;
+    }
+    .skillset{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        width: 80%;
+        margin : 15px;
+    }
+    .front-end, .back-end, .others{
+        padding: 80px 60px;
+        margin-bottom: 20px;
+        width: 250px;
+        font-size: 18px;
+        background-color: antiquewhite;
+        height: 40%;
+    }
+    
+    .skillset h4{
+        text-align: center;
+        padding-bottom: 15px;
+    }
+}
